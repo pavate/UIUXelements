@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  font-family: 'Balsamiq Sans', cursive;
+  position: relative;
+}
+
+
+.polymorph {
+      fill: #29ABE2;
+}
+#anime-demo {
+  position: relative;
+}
+#blip {
+  position: absolute;
+  right: 25%;
+  left:0;
+  top:0;
+  margin: 0 auto;
+  width:30%;
+  transform: translateY(-800px);
+}
+
+#cta, #cta2 {
+  position: absolute;
+  margin: 10em auto 0 auto;
+  width:10%;
+  padding: 15px;
+  left: 0;
+  right:0;
+  color: #fff;
+  background: none;
+  outline:0;
+  border: 1px solid #fff;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+p {
+  font-size: 3em;
+color:  #29ABE2;
+}
+
+#cta2 {
+  width: auto;
+  margin: 30px auto;
+  background:  #29ABE2;
+}
