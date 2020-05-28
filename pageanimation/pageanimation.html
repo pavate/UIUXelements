@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="counter">0</div>
+
+
+
+    </div>
+    <section>
+      <h2>Welcome back to all!</h2>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      function counter(){
+        var count = setInterval(function(){
+          var c = parseInt($('.counter').text());
+          $('.counter').text((++c).toString());
+          if(c == 100){
+            clearInterval(count);
+            $('.counter').addClass('hide')
+            $('.preloader').addClass('active')
+          }
+
+        },10)
+      }
+      counter()
+    </script>
+
+  </body>
+</html>
